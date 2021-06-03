@@ -1,5 +1,7 @@
 # Linkerd and TrafficSplit
 
+This documents an effort to demonstrate traffic splitting with linkerd for an edge service.
+
 ## Set up Ingress on Minikube with the NGINX Ingress Controller
 
 [Reference](https://kubernetes.io/docs/tasks/access-application-cluster/ingress-minikube/)
