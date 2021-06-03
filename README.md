@@ -2,7 +2,7 @@
 
 This documents an effort to demonstrate traffic splitting with linkerd for an edge service.
 
-## Set up Ingress on Minikube with the NGINX Ingress Controller
+## Set up Ingress on minikube with the NGINX Ingress Controller
 
 [Reference](https://kubernetes.io/docs/tasks/access-application-cluster/ingress-minikube/)
 
@@ -70,6 +70,9 @@ linkerd viz dashboard &
 ```
 
 ## Inject linkerd
+
+[Reference](https://linkerd.io/2.10/getting-started/)
+[Reference](https://linkerd.io/2.10/tasks/using-ingress/#nginx)
 
 ```shell
 kubectl get deploy -o yaml \
