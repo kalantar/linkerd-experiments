@@ -4,7 +4,7 @@ This documents an effort to demonstrate traffic splitting with linkerd for an ed
 
 ## Set up Ingress on minikube with the NGINX Ingress Controller
 
-[Reference](https://kubernetes.io/docs/tasks/access-application-cluster/ingress-minikube/)
+- [Reference](https://kubernetes.io/docs/tasks/access-application-cluster/ingress-minikube/)
 
 Start minikube with the ingress addon enabled:
 
@@ -71,8 +71,8 @@ linkerd viz dashboard &
 
 ## Inject linkerd
 
-[Reference](https://linkerd.io/2.10/getting-started/)
-[Reference](https://linkerd.io/2.10/tasks/using-ingress/#nginx)
+- [Reference](https://linkerd.io/2.10/getting-started/)
+- [Reference](https://linkerd.io/2.10/tasks/using-ingress/#nginx)
 
 ```shell
 kubectl get deploy -o yaml \
